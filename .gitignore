@@ -1,0 +1,77 @@
+# Portfolio Website - Git Ignore File
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Backup Files
+*.bak
+*.backup
+
+# Local Development Files
+launch.bat
+resume_placeholder.txt
+
+# Python Cache (if any)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node Modules (if any)
+node_modules/
+npm-debug.log*
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Build Files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Test Files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation (keep README.md)
+docs/
+*.md
+!README.md
+
+# Large Media Files (if any)
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Archive Files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Keep these important files
+!index.html
+!styles.css
+!script.js
+!bhargavi.pdf
+!assets/
+!README.md
